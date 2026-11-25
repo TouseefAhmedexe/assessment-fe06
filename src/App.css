@@ -115,3 +115,22 @@
   color: #555;
   margin-bottom: 2px;
 }
+
+.skills-section {
+  padding: 20px 0;
+}
+
+.skills-list {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.skill-item {
+  background-color: #1a1a2e;
+  color: #fff;
+  padding: 6px 16px;
+  border-radius: 4px;
+  font-size: 0.9rem;
+}

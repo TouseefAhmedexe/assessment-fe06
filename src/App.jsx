@@ -1,6 +1,7 @@
 import './App.css'
 import Profile from './components/Profile'
 import Education from './components/Education'
+import Skills from './components/Skills'
 
 function App() {
   return (
@@ -20,9 +21,7 @@ function App() {
 
         <Education />
 
-        <section id="skills">
-          <h2>Skills</h2>
-        </section>
+        <Skills />
 
         <section id="projects">
           <h2>Projects</h2>
