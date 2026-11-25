@@ -1,13 +1,40 @@
 function Skills() {
   const skills = [
+    'Python',
+    'C#',
+    'C++',
+    'JavaScript',
+    'TypeScript',
+    'SQL',
     'HTML',
     'CSS',
-    'JavaScript',
+    'Angular',
+    '.NET 9',
+    'ASP.NET Core',
+    'FastAPI',
+    'RESTful APIs',
     'React',
+    'Microsoft SQL Server',
+    'MySQL',
+    'Azure SQL Database',
+    'Microsoft Azure',
+    'AWS',
+    'Docker',
+    'Kubernetes',
     'Git',
     'GitHub',
-    'Vite',
-    'Responsive Design'
+    'Machine Learning',
+    'Scikit-learn',
+    'TensorFlow',
+    'PyTorch',
+    'NumPy',
+    'Pandas',
+    'Object-Oriented Programming',
+    'Data Structures and Algorithms',
+    'Agile Methodology',
+    'CI/CD',
+    'Linux',
+    'Bash Scripting'
   ]
 
   return (

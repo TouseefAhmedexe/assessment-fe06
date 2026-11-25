@@ -28,7 +28,7 @@ function App() {
       </main>
 
       <footer className="footer">
-        <p>Touseef Ahmed &copy; 2024</p>
+        <p>Touseef Ahmed &copy; 2026</p>
       </footer>
     </div>
   )

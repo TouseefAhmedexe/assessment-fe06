@@ -1,11 +1,11 @@
 function Profile() {
   const name = 'Touseef Ahmed'
-  const role = 'Frontend Developer'
-  const description = 'I am a frontend developer with a passion for building clean and responsive web applications. I enjoy working with React and modern JavaScript.'
-  const email = 'touseef@example.com'
-  const phone = '+92 300 1234567'
-  const location = 'Lahore, Pakistan'
-  const github = 'https://github.com/touseef'
+  const role = 'Computer Science Graduate | Full-Stack Developer'
+  const description = 'Computer Science graduate from Namal University with hands-on experience in full-stack application development, software engineering, artificial intelligence, machine learning, and cloud technologies through academic projects and industry internship experience. Proficient in Python, C#, C++, JavaScript, TypeScript, Angular, .NET, FastAPI, RESTful APIs, and SQL.'
+  const email = 'touseefahmed9119@gmail.com'
+  const phone = '+92 312 5691991'
+  const location = 'Rawalpindi, Pakistan'
+  const linkedin = 'https://www.linkedin.com/in/touseefahmed503'
   const available = true
 
   return (
@@ -26,7 +26,7 @@ function Profile() {
             <li>Email: {email}</li>
             <li>Phone: {phone}</li>
             <li>Location: {location}</li>
-            {github && <li>GitHub: <a href={github}>{github}</a></li>}
+            {linkedin && <li>LinkedIn: <a href={linkedin}>{linkedin}</a></li>}
           </ul>
         </div>
       </div>
