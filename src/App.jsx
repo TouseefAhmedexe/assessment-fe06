@@ -2,6 +2,7 @@ import './App.css'
 import Profile from './components/Profile'
 import Education from './components/Education'
 import Skills from './components/Skills'
+import Projects from './components/Projects'
 
 function App() {
   return (
@@ -23,9 +24,7 @@ function App() {
 
         <Skills />
 
-        <section id="projects">
-          <h2>Projects</h2>
-        </section>
+        <Projects />
       </main>
 
       <footer className="footer">
