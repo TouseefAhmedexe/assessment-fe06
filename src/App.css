@@ -50,3 +50,41 @@
   padding: 16px;
   font-size: 0.9rem;
 }
+
+.profile-section {
+  padding: 20px 0;
+}
+
+.profile-card {
+  display: flex;
+  gap: 24px;
+  align-items: flex-start;
+}
+
+.profile-image {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.profile-info h3 {
+  font-size: 1.3rem;
+  margin-bottom: 4px;
+}
+
+.profile-role {
+  color: #e94560;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.contact-list {
+  list-style: none;
+  margin-top: 12px;
+}
+
+.contact-list li {
+  margin-bottom: 4px;
+  font-size: 0.95rem;
+}

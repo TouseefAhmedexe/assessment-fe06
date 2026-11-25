@@ -1,4 +1,5 @@
 import './App.css'
+import Profile from './components/Profile'
 
 function App() {
   return (
@@ -14,9 +15,7 @@ function App() {
       </header>
 
       <main className="main">
-        <section id="profile">
-          <h2>Profile</h2>
-        </section>
+        <Profile />
 
         <section id="education">
           <h2>Education</h2>
