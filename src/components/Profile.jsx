@@ -5,6 +5,8 @@ function Profile() {
   const email = 'touseef@example.com'
   const phone = '+92 300 1234567'
   const location = 'Lahore, Pakistan'
+  const github = 'https://github.com/touseef'
+  const available = true
 
   return (
     <section id="profile" className="profile-section">
@@ -18,11 +20,13 @@ function Profile() {
         <div className="profile-info">
           <h3>{name}</h3>
           <p className="profile-role">{role}</p>
+          {available && <span className="badge">Open to Work</span>}
           <p>{description}</p>
           <ul className="contact-list">
             <li>Email: {email}</li>
             <li>Phone: {phone}</li>
             <li>Location: {location}</li>
+            {github && <li>GitHub: <a href={github}>{github}</a></li>}
           </ul>
         </div>
       </div>
