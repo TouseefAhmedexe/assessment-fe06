@@ -1,5 +1,6 @@
 import './App.css'
 import Profile from './components/Profile'
+import Education from './components/Education'
 
 function App() {
   return (
@@ -17,9 +18,7 @@ function App() {
       <main className="main">
         <Profile />
 
-        <section id="education">
-          <h2>Education</h2>
-        </section>
+        <Education />
 
         <section id="skills">
           <h2>Skills</h2>

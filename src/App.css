@@ -88,3 +88,30 @@
   margin-bottom: 4px;
   font-size: 0.95rem;
 }
+
+.education-section {
+  padding: 20px 0;
+}
+
+.education-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.education-item {
+  background-color: #fff;
+  border-left: 4px solid #1a1a2e;
+  padding: 14px 18px;
+}
+
+.education-item h3 {
+  font-size: 1rem;
+  margin-bottom: 4px;
+}
+
+.education-item p {
+  font-size: 0.9rem;
+  color: #555;
+  margin-bottom: 2px;
+}
